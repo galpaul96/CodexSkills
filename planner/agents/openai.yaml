@@ -1,0 +1,6 @@
+interface:
+  display_name: "Planner"
+  short_description: "Interview, design, and approve engineering plans"
+  default_prompt: "Use $planner to turn my software engineering goal into a detailed plan, interview me one question at a time, and keep the plan file updated until I approve it."
+policy:
+  allow_implicit_invocation: true
